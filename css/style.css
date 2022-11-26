@@ -1,0 +1,63 @@
+body {
+    margin: 0 auto;
+    max-width: 830px;
+    padding: 0 15px;
+    font-family: "游明朝体", serif;
+    box-sizing: border-box;
+}
+
+h1,
+p, #result {
+    margin: 0;
+}
+
+h1 {
+    color: #ba2636;
+    font-size: 48px;
+    padding: 24px 0;
+    border-bottom: 2px solid #ba2636;
+}
+
+.container {
+    margin-top: 38px;
+    border: 4px double #ba2636;
+    text-align: center;
+}
+
+p {
+    font-size: 38px;
+    font-weight: bold;
+    padding: 24px 0;
+}
+
+#result {
+    font-size: 48px;
+    color: #ba2636;
+
+}
+
+
+#btn {
+    all: unset;
+    width: 100%;
+    text-align: center;
+    background-color: #baab25;
+    cursor: pointer;
+    font-size: 32px;
+    padding: 24px 0;
+    margin-top: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 6px rgba(0, 0, 0, 0.7);
+}
+
+#btn:hover {
+    opacity: 0.7;
+}
+
+#btn:active {
+    box-shadow: 0 2px;
+    transform: translateY(4px);
+}
+
+
